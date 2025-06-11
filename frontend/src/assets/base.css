@@ -1,0 +1,19 @@
+
+:root {
+  --vt-c-bg-dark: #121212; /* 深色背景 */
+  --vt-c-text-light: #e0e0e0; /* 浅色文本 */
+  --vt-c-primary: #0bc5e6; /* 主色调蓝色 */
+  --font-family-primary:'SourceHanSans',sans-serif;/*全局更改字体*/
+  --font-family-secondary:'Courier New',Courier, monospace;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--vt-c-bg-blue);
+  background-color:white;
+  color: var(--vt-c-text-light);
+  font-family: var(--font-family-primary);
+}
